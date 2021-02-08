@@ -6,6 +6,8 @@
       "dom.iterable",
       "esnext"
     ],
+    "rootDir": "src",
+    "outDir": "build",
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -18,7 +20,12 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "strictFunctionTypes": true,
+    "importHelpers":true,
+    "jsx": "react-jsx",
   },
   "include": [
     "src"
